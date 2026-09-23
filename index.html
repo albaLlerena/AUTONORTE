@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUTONORTE - Taller Mecánico & Reprogramación de Centralitas</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts: Montserrat & Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo-link">
+        <img src="assets/logo.png" alt="AUTONORTE Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <span class="logo-text" style="display:none;">AUTO<span>NORTE</span></span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#repro">Reprogramaciones</a></li>
+          <li><a href="#servicios">Mecánica General</a></li>
+          <li><a href="#opiniones">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contacto-whatsapp" class="btn btn-whatsapp-nav">
+        <svg viewBox="0 0 24 24" class="icon-wa"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 16.75c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.32a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.24-8.22 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge-novedad">⚡ NUEVO SERVICIO EN AUTONORTE</span>
+      <h1>Reprogramación de Centralitas & Mecánica Especializada</h1>
+      <p>Potenciación, optimización de consumo, anulación DPF/EGR/AdBlue y diagnóstico avanzado multimarca en Colmenar Viejo.</p>
+      <div class="hero-buttons">
+        <a href="#repro" class="btn btn-primary">Ver Reprogramaciones</a>
+        <a href="#contacto-whatsapp" class="btn btn-secondary">Consultar mi Coche</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DESTACADA: REPROGRAMACIONES & ANULACIONES -->
+  <section id="repro" class="section section-dark">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Reprogramaciones & Anulaciones ECU</h2>
+        <div class="divider"></div>
+        <p>Contamos con la última tecnología en maquinaria de diagnóstico y lectura directa de centralita para todo tipo de vehículos.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card card-repro">
+          <div class="card-icon">⚡</div>
+          <h3>Reprogramación Stage 1 / Eco</h3>
+          <p>Aumento de potencia y par motor de forma totalmente segura manteniendo la fiabilidad. Optimización de consumo de combustible.</p>
+        </div>
+
+        <div class="card card-repro">
+          <div class="card-icon">🛠️</div>
+          <h3>Anulación DPF / FAP / EGR</h3>
+          <p>Solución definitiva a fallos recurrentes del sistema anticontaminación, pérdida de potencia y regeneraciones continuas.</p>
+        </div>
+
+        <div class="card card-repro">
+          <div class="card-icon">🧪</div>
+          <h3>Gestión AdBlue & DTC</h3>
+          <p>Anulación de fallos del sistema AdBlue y borrado/gestión de códigos de avería (DTC) directamente desde la centralita.</p>
+        </div>
+      </div>
+
+      <!-- BANNER DIRECTO CONSULTA -->
+      <div class="cta-box">
+        <div class="cta-text">
+          <h3>¿Quieres saber qué ganancias puede tener tu vehículo?</h3>
+          <p>Escríbenos por WhatsApp con tu marca, modelo, año y motorización. Te asesoramos sin compromiso.</p>
+        </div>
+        <a href="#contacto-whatsapp" class="btn btn-primary btn-large">Consultar por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN MECÁNICA GENERAL -->
+  <section id="servicios" class="section section-light">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Mecánica General & Mantenimiento</h2>
+        <div class="divider red"></div>
+        <p>Cuidamos de tu vehículo con el máximo rigor profesional, maquinaria multimarca y recambios de primera calidad.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="service-box">
+          <div class="service-icon">🔍</div>
+          <h4>Diagnosis Avanzada</h4>
+          <p>Detección precisa de averías electrónicas y de motor con la última tecnología.</p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon">🚗</div>
+          <h4>Pre-ITV & Revisión</h4>
+          <p>Puesta a punto completa para asegurar que pasas la ITV a la primera.</p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon">⚙️</div>
+          <h4>Mantenimiento & Aceite</h4>
+          <p>Cambios de filtro, aceite, kit de distribución, embragues y frenos.</p>
+        </div>
+        <div class="service-box">
+          <div class="service-icon">❄️</div>
+          <h4>Climatización & Varios</h4>
+          <p>Carga de aire acondicionado, suspensión, neumáticos y electricidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN RESEÑAS GOOGLE Y WIDGET -->
+  <section id="opiniones" class="section section-dark">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Lo que opinan nuestros clientes</h2>
+        <div class="divider"></div>
+        <p>Opiniones reales de nuestros clientes en Google Maps</p>
+      </div>
+
+      <!-- 3 RESEÑAS DESTACADAS -->
+      <div class="grid grid-3">
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="stars">★★★★★</span>
+            <span class="review-date">Google Maps</span>
+          </div>
+          <p class="review-text">"Excelente atención y gran profesionalidad. Me diagnosticaron la avería rápido y el coche va perfecto. Muy recomendables."</p>
+          <div class="review-author">— Cliente de Google</div>
+        </div>
+
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="stars">★★★★★</span>
+            <span class="review-date">Google Maps</span>
+          </div>
+          <p class="review-text">"Trato inmejorable de todo el equipo de AUTONORTE. Honradez y rapidez en el trabajo de mecánica y reprogramación."</p>
+          <div class="review-author">— Cliente de Google</div>
+        </div>
+
+        <div class="card review-card">
+          <div class="review-header">
+            <span class="stars">★★★★★</span>
+            <span class="review-date">Google Maps</span>
+          </div>
+          <p class="review-text">"Taller de confianza total. Resolvieron un problema de centralita que en otros lados no daban con él."</p>
+          <div class="review-author">— Cliente de Google</div>
+        </div>
+      </div>
+
+      <!-- CONTENEDOR PARA WIDGET AUTOMÁTICO (Elfsight / WidgetBox) -->
+      <div id="google-widget-container" class="widget-wrapper">
+        <!-- Pega aquí el código <script> de tu Widget cuando lo tengas -->
+      </div>
+
+      <!-- BOTONES DE ACCIÓN GOOGLE MAPS -->
+      <div class="google-buttons-container text-center">
+        <a href="https://maps.app.goo.gl/x8J6e9S98mKk2u9c8" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          ⭐ Ver todas las opiniones en Google Maps
+        </a>
+        <a href="https://search.google.com/local/writereview?placeid=TU_PLACE_ID" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          ✍️ Dejar una reseña en Google
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO Y SELECCIÓN DE WHATSAPP -->
+  <section id="contacto" class="section section-light">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Dónde Estamos & Contacto Directo</h2>
+        <div class="divider red"></div>
+      </div>
+
+      <div class="grid grid-2 contact-grid">
+        <div class="contact-info">
+          <h3>AUTONORTE</h3>
+          <p class="address">📍 Colmenar Viejo, Madrid</p>
+          
+          <div class="info-item">
+            <strong>🕒 Horario de Atención:</strong>
+            <p>Lunes a Viernes: 10:00 - 14:00 | 16:00 - 20:00<br>Sábados y Domingos: Cerrado</p>
+          </div>
+
+          <a href="https://maps.app.goo.gl/x8J6e9S98mKk2u9c8" class="btn btn-primary" target="_blank">Ver en Google Maps</a>
+        </div>
+
+        <div class="map-box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.654!2d-3.766!3d40.658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDM5JzI4LjgiTiAzwrA0NScwOS42Ilc!5e0!3m2!1ses!2ses!4v1600000000000!5m2!1ses!2ses" width="100%" height="250" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <!-- BLOQUE SELECTOR DE WHATSAPP (2 TELÉFONOS) -->
+      <div id="contacto-whatsapp" class="whatsapp-selector-container">
+        <h3>¿Con quién deseas contactar por WhatsApp?</h3>
+        <p class="wa-subtitle">Selecciona el departamento para abrir el chat directamente:</p>
+
+        <div class="grid grid-2 whatsapp-cards">
+          <!-- Opción Taller / Mecánica (Padre) -->
+          <a href="https://wa.me/34696459094?text=Hola,%20quisiera%20consultar%20sobre%20reprogramaciones%20o%20mec%C3%A1nica" target="_blank" rel="noopener noreferrer" class="card-wa-contact">
+            <div class="wa-icon">🔧</div>
+            <div class="wa-details">
+              <h4>Taller & Reprogramaciones</h4>
+              <p>Consultas técnicas, presupuestos de motor, repros y electrónica.</p>
+              <span class="btn-wa-action">Hablar por WhatsApp</span>
+            </div>
+          </a>
+
+          <!-- Opción Recepción / Citas (Madre) -->
+          <a href="https://wa.me/34629327582?text=Hola,%20quisiera%20consultar%20horarios%20o%20informaci%C3%B3n%20general" target="_blank" rel="noopener noreferrer" class="card-wa-contact">
+            <div class="wa-icon">📋</div>
+            <div class="wa-details">
+              <h4>Atención & Recepción</h4>
+              <p>Horarios, citas previa, recepción de vehículos y estado del coche.</p>
+              <span class="btn-wa-action">Hablar por WhatsApp</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BOTÓN FLOTANTE WHATSAPP (Apunta al bloque de selección) -->
+  <a href="#contacto-whatsapp" class="whatsapp-float" aria-label="Contacto por WhatsApp">
+    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 16.75c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.32a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.24-8.22 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.43s-.56-1.35-.77-1.85c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content text-center">
+      <p>© 2026 AUTONORTE - Taller Mecánico & Reprogramaciones en Colmenar Viejo.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
